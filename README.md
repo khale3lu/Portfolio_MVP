@@ -7,9 +7,11 @@ Clone the Repository: Clone this repository to your local machine using Git: git
 pip install -r requirements.txt Configure the Database: Edit the app.py file to specify your MySQL database configuration. 
 python initialize_database.py Run the Application: Start the Flask application:
 
-python app.py The application will be available at http://localhost:5000/ in your web browser.
+python app.py The application will be available at http://127.0.0.1:5000/ in your web browser.
 
-Usage Visit the home page at http://localhost:5000/ to view articles. Register an account to create and manage articles. Log in to your account to access the dashboard for article management. Create, edit, and delete articles as a logged-in user. Challenges Faced During the development of this application, the following challenges were encountered:
+Usage Visit the home page at http://127.0.0.1:5000/ to log your response.
+
+Challenges Faced During the development of this website, the following challenges were encountered:
 
 Database Configuration: Configuring the MySQL database correctly, including setting up the schema and ensuring that the 'root' user had the necessary privileges.
 
