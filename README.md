@@ -7,7 +7,7 @@ Clone the Repository: Clone this repository to your local machine using Git: git
 pip install -r requirements.txt Configure the Database: Edit the app.py file to specify your MySQL database configuration. 
 python initialize_database.py Run the Application: Start the Flask application:
 
-python app.py The application will be available at http://127.0.0.1:5000/ in your web browser.
+python app.py The website will be available at http://127.0.0.1:5000/ in your web browser.
 
 Usage Visit the home page at http://127.0.0.1:5000/ to log your response.
 
