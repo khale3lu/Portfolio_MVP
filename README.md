@@ -1,26 +1,54 @@
 # Portfolio_MVP
-Description This Flask website is a simple web application that allows my clients to rate thier day at the end of each session and add a comment. The website designed to showcase basic web development concepts using Flask, html, and other related technologies.
-Technologies Used #Flask: Flask is a micro web framework for Python used to build web applications. MySQL: MySQL is an open-source relational database management system used for data storage. Flask-MySQLdb: Flask-MySQLdb is a Flask extension that simplifies MySQL database connections in Flask applications. WTForms: WTForms is a library for creating and validating web forms in Flask applications. passlib: Passlib is a library used for password hashing and verification. Python 3.x: The application is built using Python 3.x. Installation To run this Flask application on your local machine, follow these steps:
+# Khaleelu Fried Chicken Website
 
-Clone the Repository: Clone this repository to your local machine using Git: git clone <repository_url> Install Dependencies: Navigate to the project directory and install the required Python packages using pip:
+**Description:**
+Welcome to the Khaleelu Fried Chicken website – your go-to destination for mouthwatering delights! This stylish and user-friendly site is designed to provide an immersive experience for visitors seeking information about our delicious offerings, locations, and the opportunity to rate their dining experience.
 
-pip install -r requirements.txt Configure the Database: Edit the app.py file to specify your MySQL database configuration. 
-python initialize_database.py Run the Application: Start the Flask application:
+**Features:**
+1. **Homepage:**
+   - The homepage greets you with a warm welcome in a unique font style.
+   - Navigation links (Home, Menu, Locations, Contact) provide easy access to different sections.
 
-python app.py The website will be available at http://127.0.0.1:5000/ in your web browser.
+2. **About Us Section:**
+   - Learn about Khaleelu Fried Chicken's commitment to serving delicious fried chicken and other delectable dishes.
 
-Usage Visit the home page at http://127.0.0.1:5000/ to log your response.
+3. **Menu Section:**
+   - Explore a diverse menu that includes Fried Chicken, Chicken Wings, Burgers, Samosas, Cake POPs, French Fries, and more.
 
-Challenges Faced During the development of this website, the following challenges were encountered:
+4. **Locations Section:**
+   - Discover our branches at 123 Nasarawa G.R.A, Kano, and 3rd Avenue Gwarinpa, Abuja.
 
-Database Configuration: Configuring the MySQL database correctly, including setting up the schema and ensuring that the 'root' user had the necessary privileges.
+5. **Rating Services:**
+   - The user-friendly rating system allows visitors to rate their dining experience on a scale of 1-10.
 
-Session Management: Implementing user sessions and securing routes that require authentication using Flask's session management.
+**Design Elements:**
+- A stylish and catchy header using the 'Pacifico' font for the logo and a bold 'Montserrat' font for text.
+- Dark gray navigation bar with links in white, offering a sleek and easily readable design.
+- Sections use light gray and subtle box shadows for a clean and modern appearance.
+- The rating section features a 'Saddle Brown' background with gold accents, creating an elegant and inviting space.
 
-Password Hashing: Properly implementing password hashing and verification using the Passlib library to enhance security.
+**Mobile Responsiveness:**
+- The website is designed to be responsive, ensuring a seamless and enjoyable experience across various devices, including mobile phones and tablets.
 
-Form Validation: Validating user input in registration and article creation forms using WTForms to prevent data inconsistencies and security vulnerabilities.
+**Domain Link:**
+[Khaleelu Fried Chicken](http://35.153.255.62/#)
 
-Debugging: Debugging and troubleshooting any issues that arose during development, including SQL queries, route handlers, and template rendering.
+**Steps Taken:**
+1. **HTML Structure:**
+   - Created an HTML document with essential sections: header, navigation, about us, menu, locations, rating.
 
-Contributing Contributions to this project are welcome. You can fork the repository, make your changes, and submit a pull request. Please follow best practices and maintain code quality.
+2. **CSS Styling:**
+   - Styled the website using CSS, incorporating attractive fonts and color schemes.
+   - Implemented a responsive design to ensure optimal viewing on different devices.
+
+3. **Rating System:**
+   - Developed a user-friendly rating system with an input form for visitors to rate their experience.
+
+4. **Mobile Optimization:**
+   - Ensured mobile responsiveness using the viewport meta tag and responsive design practices.
+
+5. **Domain Configuration:**
+   - The website is hosted on a server with the IP address [35.153.255.62](http://35.153.255.62/#).
+
+**Conclusion:**
+Khaleelu Fried Chicken's website combines functionality with style, providing users with an enjoyable and informative online experience. Whether you're exploring our menu, finding nearby locations, or sharing your feedback, we aim to make your digital journey as delightful as our culinary offerings.
